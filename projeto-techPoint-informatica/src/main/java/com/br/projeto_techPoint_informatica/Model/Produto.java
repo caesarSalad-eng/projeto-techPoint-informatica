@@ -20,7 +20,10 @@ public class Produto {
     @Column(nullable = false, unique = true)
     private String nome;
 
-    
     private String categoria;
+
+    private double preco;
+
+    private int estoque;
 
 }
